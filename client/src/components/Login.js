@@ -27,7 +27,7 @@ function Login () {
             };
             console.log(newUser);
         let res = await axios.post(
-            "http://localhost:8000/users/login", 
+            "https://foodie-s5wq.onrender.com/users/login", 
             newUser
         );
         console.log(res.data)

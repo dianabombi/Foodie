@@ -55,7 +55,7 @@ function BlogForm({ getAllRestaurants }) {
                 imageUrl: blogForm.imageUrl,
             };
 
-            let res = await axios.post("http://localhost:8000/restaurants/create", newRestaurant);
+            let res = await axios.post("https://foodie-s5wq.onrender.com/restaurants/create", newRestaurant);
             alert(res.data.msg);
             getAllRestaurants();
             setBlogForm(initialValue); // Reset form

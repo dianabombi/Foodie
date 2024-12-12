@@ -1,14 +1,18 @@
 import React from "react";
 import axios from "axios";
-import {useState, useEffect, navigate} from "react";
+import {useState, useEffect} from "react";
 import {jwtDecode} from "jwt-decode";
+import { useNavigate } from "react-router-dom";
+import Login from "./Login";
 import "/Users/diana/Desktop/Foodie Project/client/src/RestaurantsList.css";
+
 
 
 function RestaurantsList ({restaurant, deleteRestaurant, editRestaurant}) {
 
   let token =  localStorage.getItem("auth-token");
   let decoded;
+  let navigate = useNavigate();
 
   try {
     if (token) {
@@ -63,7 +67,7 @@ const handleEditClick = (restaurant) => {
     
 async function getAllRestaurants () {
     try {
-        let res = await axios.get ("http://localhost:8000/restaurants/");
+        let res = await axios.get ("https://foodie-s5wq.onrender.com/restaurants/");
         console.log(res.data);
         setRestaurants(res.data);
     } catch (error) {
