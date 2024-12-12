@@ -1,0 +1,33 @@
+.register-form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    border: none;
+    color: black;
+    background: rgba(154, 222, 190, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.register-input-field {
+    width: 80%;
+    margin: 0.5rem 0; 
+}
+
+.register-button {
+    width: 50%;
+    margin-top: 1rem; 
+    text-align: center;
+}
+
+input {
+    margin: 0.5rem 0; /* Adds vertical spacing between inputs */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Makes the inputs stretch to fill the container width */
+    box-sizing: border-box;
+}

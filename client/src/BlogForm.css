@@ -1,0 +1,107 @@
+
+.BlogForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #C1CFA1;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .BlogForm h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .BlogForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .BlogForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #494848;
+  }
+  
+  .BlogForm input,
+  .BlogForm select,
+  .BlogForm textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: border-color 0.3s;
+  }
+  
+  .BlogForm input:focus,
+  .BlogForm select:focus,
+  .BlogForm textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .BlogForm textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  .BlogForm input[type="submit"] {
+    background-color: #EDE8DC;
+    color: #494848;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .BlogForm input[type="submit"]:hover {
+    background-color: #A5B68D;
+  }
+  
+  .BlogForm div {
+    display: flex;
+
+    flex-direction: column;
+  }
+  
+  .BlogForm select {
+    background-color: #fff;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .BlogForm select option {
+    padding: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .BlogForm {
+      padding: 15px;
+    }
+  
+    .BlogForm h1 {
+      font-size: 20px;
+    }
+  
+    .BlogForm input,
+    .BlogForm select,
+    .BlogForm textarea {
+      font-size: 14px;
+    }
+  
+    .BlogForm input[type="submit"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+  }
+  

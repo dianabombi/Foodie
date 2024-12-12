@@ -1,0 +1,24 @@
+
+ .cards-container {
+  display: flex;
+  height: 100vh;
+  gap: 16px; /* Space between cards */
+  flex-wrap: wrap; /* Wrap to the next row if there isn't enough space */
+  justify-content: space-between; /* Adjust alignment */
+  background-color: white;
+}
+
+.restaurantCard {
+  border: 1px solid #ddd;
+  background-color: white;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* background-color: white; */
+}
+  
+.restaurantCard h2 {
+  color: #333;
+}

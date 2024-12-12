@@ -1,0 +1,36 @@
+/* General Page Styling */
+.login-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://stratiscope.com/wp-content/uploads/2020/02/sharing-food-3184177-scaled-e1582504660188.jpg')
+    no-repeat center center fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; 
+}
+
+.login-box {
+    border: none;
+    color: black;
+    background: rgba(107, 141, 174, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-right: 10%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} 
+
+.login-button {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-list{
+    margin: 5%;
+    color: black;
+    background-color: white;  
+}
