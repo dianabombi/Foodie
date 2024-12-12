@@ -7,7 +7,7 @@ const userRoutes = require("./routes/user.routes")
 const connection = require("./config/connection");
 
 const cors = require("cors");
-const port = process.env.PORT || 8000;
+const port = 8000;
 
 //middleware
 app.use(express.json());
