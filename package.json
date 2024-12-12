@@ -3,6 +3,6 @@
     "bootstrap": "^5.3.3",
     "jwt-decode": "^4.0.0",
     "react-bootstrap": "^2.10.5",
-     "start": "nodemon --env-file=.env server.js"
+     "start": "node server.js"
   }
 }
